@@ -11,15 +11,30 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/myIcons/styles.css" />
+
 </head>
 
 <body class="is-preload">
 
+    <div class="navbar" style="z-index: 9999;">
+        <img id="logo" src="images/logo Branco.png">
+        <div id="btnShopNow" style="float: right;">
+            <button class="button small">Acessar Loja &nbsp;<i class="fa fa-shopping-cart"></i> </button>
+        </div>
+    </div>
     <!-- Header -->
     <div id="header">
-        <span class="logo icon fa-paper-plane"></span>
-        <h3>Que tal dar aquele sossego pra morena?</h3>
-        <p>Soluções completas para linha branca.</p>
+        <span class="logo icon">
+			<img src="images/Logo Redondo.png" style="max-width:-webkit-fill-available;"/>
+		</span>
+        <h3 class="hide360px">&nbsp;</h3>
+        <!-- <h3>Que tal dar aquele sossego pra morena?</h3> -->
+        <p style="font-style: italic;" class="marginwhenisbig">"Que tal dar aquele sossego pra morena?"</p>
+        <!-- <p style="font-style: italic;font-weight:600; background-color: rgb(3,56,117,0.1);">"Que tal dar aquele sossego pra morena?"</p> -->
+        <!-- <p style="font-style: italic; background-color: rgb(3,56,117,0.1);">"Saiba como"</p> -->
+        <!-- <p><img style="max-width: 18px;" src="assets/css/images/swipe.png" /></p> -->
+
         <!--TODO: Mover essa parte para seção de baixo -->
         <!-- TODO: Duas seções ficaram visídeis no mobile -->
         <!-- <p>Atendimento online? Consulta presencial? Ou compra Online? <a href="http://html5up.net/license">Tudo Aqui!</a></p> -->
@@ -32,13 +47,29 @@
     <div id="main">
 
         <header class="major container medium">
-            <!-- ícone whatsapp -->
-            <h2>• Atendimento Online</h2>
-            <h2>• Consulta Presencial</h2>
-            <h2>• Consultoria Técnica</h2>
-            <h2>• Compra Online</h2>
+            <div class="row">
+                <div class="col-4">
+                    <!-- LOGOS -->
+                    <img src="images/brastemp.png" class="logomedium" />
+                    <img src="images/consul.png" class="logolarge" />
+                    <img src="images/electrolux.png" class="logosmall" />
+                    <!-- <img src="images/elec2.png" style="max-width: 5em;" /> -->
+                    <img src="images/elgin.png" class="logomedium" />
+                    <img src="images/fischer-logo.png" class="logolarge" />
+                    <img src="images/gelopar.png" class="logolarge" />
 
-            <h2 style="text-align:right"><a href="#section1">Tudo Aqui!</a></h2>
+                </div>
+                <div class="col-8" style="text-align: left;">
+                    <!-- <p style="font-style: italic; text-align: left; font-weight: 600;">"Uma solução completa para Eletrodomésticos"</p> -->
+                    <!-- <h2 style="text-align:left;padding-top: 1em;"><a href="#section2" style="font-style: italic;">Uma solução completa para Eletrodomésticos e Refrigeração</a></h2> -->
+                    <h1 style="text-align:left;padding-top: 1em;" class="margintext"><a href="#section2" style="font-style: italic; text-transform: none !important;">Uma solução completa para Eletrodomésticos e Refrigeração!</a></h1>
+                    <p style="font-style: italic; padding-left: 0; font-weight: 600;">"Confere Ai" &nbsp; <img style="max-width: 18px;" src="assets/css/images/swipe.png" /></p>
+                    <!-- <h2 style="text-align:right;padding-top: 1em;"><a href="#section1">E um pouco mais!</a></h2> -->
+                </div>
+            </div>
+            <!-- ícone whatsapp -->
+
+            <!-- <h2 style="text-align:right"><a href="#section1">E um pouco mais!</a></h2> LUGAR ANTIGO -->
             <!--
 					<p>Tellus erat mauris ipsum fermentum<br />
 					etiam vivamus nunc nibh morbi.</p>
@@ -47,24 +78,33 @@
 
         <div class="box alt container">
             <section class="feature left">
-                <a href="#" class="image icon solid fa-signal"><img src="images/pic01.jpg" alt="" /></a>
+                <a href="#" class="image icon solid icon-tools-1"><img src="images/background-one.png" alt="" style="width: 100%;" /></a>
                 <div class="content">
-                    <h3>The First Thing</h3>
-                    <p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
+                    <h3>Loja de Peças</h3>
+                    <p style="text-align: left;">Trabalhamos com peças de toda a linha Branca das mais variadas marcas a mais de <b>20 anos</b>. Possuindo em estoque uma variedade com mais de <b>10.000</b> itens. </p>
+                    <button class="button alt" style="color: #356091;">Ligar (51) 30263512</button>
+                    <button onclick="window.location.href='https:/wa.me/5551997000741'" class="button alt" style="color: #356091;"> Abrir Whats <img src="images/whatsapp.png" style="max-width: 1.5em;"></button>
+                    </p>
+                    <!-- <p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p> -->
                 </div>
             </section>
             <section class="feature right">
-                <a href="#" class="image icon solid fa-code"><img src="images/pic02.jpg" alt="" /></a>
+                <a href="#" class="image icon solid icon-ecommerce"><img src="images/background-three.png" style="width: 100%;" alt="" /></a>
                 <div class="content">
-                    <h3>The Second Thing</h3>
-                    <p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
+                    <h3>Loja Virtual</h3>
+                    <p style="text-align: left;">Uma plataforma completa para você encontrar tudo que está procurando, com<b> Frete para todo o Brasil </b>. Está com dúvidas? Chama no Whats Atendimento das 8:00 as 18:00. </p>
+                    <button class="button">Acessar Loja</button>
+                    <!-- <p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p> -->
                 </div>
             </section>
             <section class="feature left">
-                <a href="#" class="image icon solid fa-mobile-alt"><img src="images/pic03.jpg" alt="" /></a>
+                <!-- <a href="#" rel="icon" class="image icon solid" type="image/png" href="images/tecnico.png"> -->
+                <a href="//api.whatsapp.com/send?phone=51997000741&text=WHATEVER_LINK_OR_TEXT_YOU_WANT_TO_SEND" class="image icon solid icon-mechanic-1"><img src="images/background-two.png" style="width: 100%;" alt="" /></a>
                 <div class="content">
-                    <h3>The Third Thing</h3>
-                    <p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
+                    <h3>Assistência Técnica</h3>
+                    <p style="text-align: left;">Somos representates de diversas marcas, com serviços autorizados e especializados de ar-condicionado e Eletrodomésticos. Possuindo uma equipe qualificada e atualizada sobre as novas tecnologias do ramo.</p>
+                    <button class="button alt" style="color: #356091;">Ligar (51) 30263512</button>
+                    <button class="button alt" onclick="window.location.href='https:/wa.me/5551999254256'" style="color: #356091;"> Abrir Whats <img src="images/whatsapp.png" style="max-width: 1.5em;"></button>
                 </div>
             </section>
         </div>
@@ -213,10 +253,18 @@
 				-->
 
         <footer class="major container medium">
-            <h3>Get shady with science</h3>
-            <p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.</p>
+            <h3>Localização</h3>
+            <p style="text-align: left;font-size: 1.3em;">Avenida Bento Gonçalves Nº 3155, Partenon POA - RS</p>
+            <!-- <h3 style="text-align: left;">Contato</h3>
+            <p style="text-align: left;">Assistência Técnica</p>
+            <p style="text-align: left;">(51) 3384-3712</p>
+            <p style="text-align: left;">(51) 99925-4256</p>
+            <p style="text-align: left;">Venda De Peças</p>
+            <p style="text-align: left;">(51) 3085-2476 | (51) 99700-0741</p> -->
+            <!-- <p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.</p> -->
             <ul class="actions special">
-                <li><a href="#" class="button">Join our crew</a></li>
+                <!-- <li><a href="#" class="button" style="background-color: rgb(3,56,117,0.8);color: white;">Como Chegar</a></li> -->
+                <li><a href="#" class="button alt" style="color:#356091 ">Como Chegar</a></li>
             </ul>
         </footer>
 
@@ -227,12 +275,11 @@
         <div class="container medium">
 
             <header class="major last">
-                <h2>Questions or comments?</h2>
+                <h2>"Quem tem internet faz tudo!"</h2>
             </header>
+            <p>Uma plataforma educacional, disponivel no Youtube e em Blog para saciar suas dúvidas técnicas.</p>
 
-            <p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.</p>
-
-            <form method="post" action="#">
+            <!-- <form method="post" action="#">
                 <div class="row">
                     <div class="col-6 col-12-mobilep">
                         <input type="text" name="name" placeholder="Name" />
@@ -249,21 +296,19 @@
                         </ul>
                     </div>
                 </div>
-            </form>
+            </form> -->
 
             <ul class="icons">
-                <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
                 <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
                 <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-                <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-                <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+                <li><a href="#" class="icon brands fa-youtube"><span class="label">Youtube</span></a></li>
+                <li><a href="#" class="icon brands fa-dribbble"><span class="label">Blog</span></a></li>
             </ul>
 
             <ul class="copyright">
-                <li>&copy; Untitled. All rights reserved.</li>
-                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                <li>&copy; Assistec. All rights reserved.</li>
+                <li>Design by: <a href="">Família Assistec.</a></li>
             </ul>
-
         </div>
     </div>
 
