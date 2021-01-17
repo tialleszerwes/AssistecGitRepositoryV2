@@ -238,7 +238,7 @@ dl,
 table,
 blockquote,
 form {
-    margin: 0 0 2em 0;
+    margin: 0 0 1em 0;
 }
 
 h1,
@@ -2285,7 +2285,8 @@ input[type="button"],
     -webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
     -ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-    background: rgb(3, 56, 117, 0.8);
+    /* background: rgb(3, 56, 117, 0.8); */
+    background: #0fa1e4;
     border-radius: 4px;
     border: 0;
     color: #ffffff;
@@ -2306,14 +2307,19 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
 .button:hover {
-    background: #3e4d64cf;
+    background: #f2f2f2;
+    color: #0fa1e4;
+    box-shadow: inset 0 0 0 1px #0fa1e4;
 }
 
 input[type="submit"]:active,
 input[type="reset"]:active,
 input[type="button"]:active,
 .button:active {
-    background: #3e4d64cf;
+    background: #cecece;
+    color: #f1f0f0;
+    border-color: #f2f2f2;
+    box-shadow: inset 0 0 0 1px #1d7da7;
 }
 
 input[type="submit"].alt,
@@ -2473,11 +2479,11 @@ input[type="reset"].small,
 
 #header {
     background-attachment: scroll, scroll, fixed;
-    background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/balcao.png");
+    background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/balcao.jpg");
     background-position: bottom center, top left, center center;
     background-repeat: repeat-x, repeat, no-repeat;
     background-size: 3200px 460px, auto, cover;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 1);
     padding: 10em 0 20em 0;
     position: relative;
     text-align: center;
@@ -2545,7 +2551,7 @@ input[type="reset"].small,
     font-size: 2.25em;
     height: 2.35em;
     line-height: 2.35em;
-    margin: 0 0 0.75em 0;
+    margin: 0 0 0 0;
     text-align: center;
     width: 2.35em;
 }
@@ -2712,7 +2718,7 @@ input[type="reset"].small,
 
 /* Wide */
 
-@media screen and (max-width: 1680px) {
+@media screen and (max-width: 1920px) {
     /* Basic */
     body,
     input,
@@ -2738,11 +2744,8 @@ input[type="reset"].small,
         font-size: 2.25em;
     }
     #header p {
-        font-size: 1.25em;
-        line-height: 1.65em;
-    }
-    .margintext {
-        padding-top: 1em;
+        font-size: 2.15em;
+        font-weight: 600;
     }
 }
 
@@ -2778,19 +2781,19 @@ input[type="reset"].small,
     /* Box */
     .box {
         padding: 2.5em;
-        margin-bottom: 4em;
+        /* margin-bottom: 4em; */
     }
     /* Feature */
     .feature {
         height: 18em;
     }
     .feature .content {
-        padding: 2.5em;
+        padding: 2em;
     }
     /* Header */
     #header {
         background-attachment: scroll, scroll, scroll;
-        background-image: url("images/top-1600.svg"), url("images/overlay.png"), url("../../images/balcao.png");
+        background-image: url("images/top-1600.svg"), url("images/overlay.png"), url("../../images/balcao.jpg");
         background-size: 1600px 230px, auto, cover;
         padding: 6em 0 12em 0;
     }
@@ -2804,7 +2807,8 @@ input[type="reset"].small,
         font-size: 2em;
     }
     #header p {
-        font-size: 1.15em;
+        font-size: 2.15em;
+        font-weight: 600;
     }
     /* Footer */
     #footer {
@@ -2820,9 +2824,6 @@ input[type="reset"].small,
     #main {
         padding: 4em 0 3em 0;
     }
-    .margintext {
-        padding-top: 1em;
-    }
 }
 
 
@@ -2835,9 +2836,6 @@ input[type="reset"].small,
     select,
     textarea {
         font-size: 12pt;
-    }
-    .margintext {
-        padding-top: 1em;
     }
 }
 
@@ -2854,9 +2852,9 @@ input[type="reset"].small,
         padding-left: 2em;
         padding-right: 2em;
     }
-    .margintext {
+    /* .margintext {
         padding-top: 1em;
-    }
+    } */
 }
 
 
@@ -2892,7 +2890,7 @@ input[type="reset"].small,
     /* Box */
     .box {
         padding: 2em;
-        margin-bottom: 2em;
+        /* margin-bottom: 2em; */
     }
     /* Feature */
     .feature {
@@ -2921,7 +2919,7 @@ input[type="reset"].small,
     }
     /* Header */
     #header {
-        background-image: url("images/top-1280.svg"), url("images/overlay.png"), url("../../images/balcao.png");
+        background-image: url("images/top-1280.svg"), url("images/overlay.png"), url("../../images/balcao.jpg");
         background-size: 1280px 184px, auto, cover;
         padding: 4.5em 0 5em 0;
     }
@@ -2957,9 +2955,9 @@ input[type="reset"].small,
     #main {
         padding: 2em 0 2em 0;
     }
-    .margintext {
+    /* .margintext {
         padding-top: 1em;
-    }
+    } */
 }
 
 
@@ -3015,6 +3013,7 @@ input[type="reset"].small,
     #header {
         padding-left: 2em;
         padding-right: 2em;
+        background-image: url("images/top-1600.svg"), url("images/overlay.png"), url("../../images/balcao-mobile.jpg");
     }
     #header br {
         display: none;
@@ -3022,9 +3021,9 @@ input[type="reset"].small,
     h1 {
         font-size: 1.3em;
     }
-    .margintext {
+    /* .margintext {
         padding-top: 1em;
-    }
+    } */
 }
 
 
@@ -3065,6 +3064,14 @@ input[type="reset"].small,
     /* Used in this example to enable scrolling */
 }
 
+.showMobile {
+    display: block;
+}
+
+.showDesktop {
+    display: none;
+}
+
 
 /* Alterações Pessoais */
 
@@ -3098,6 +3105,16 @@ input[type="reset"].small,
     .logolarge {
         max-width: 5em;
     }
+    h1 {
+        /* padding-top: 1em; */
+        text-align: left;
+        font-size: 1.5em;
+    }
+    .align-center {
+        text-align: left;
+        width: 100%;
+        padding-left: 0px !important;
+    }
 }
 
 @media screen and (min-width: 481px) and (max-width: 736px) {
@@ -3111,6 +3128,11 @@ input[type="reset"].small,
     input[type="button"].small,
     .button.small {
         font-size: 0.75em;
+    }
+    .align-center {
+        text-align: left;
+        width: 100%;
+        padding-left: 0px !important;
     }
 }
 
@@ -3126,6 +3148,30 @@ input[type="reset"].small,
     .button.small {
         font-size: 0.85em;
     }
+    .logosmall {
+        max-width: 3em;
+    }
+    .logomedium {
+        max-width: 6em;
+    }
+    .logolarge {
+        max-width: 10em;
+    }
+    h1 {
+        font-size: 1.8em;
+        text-align: center;
+        padding-top: 0px;
+    }
+    p {
+        font-size: 1.1em;
+    }
+    .logos img:not(:first-child) {
+        margin-left: 1em;
+    }
+    .align-center {
+        text-align: center;
+        width: 100%;
+    }
 }
 
 @media screen and (min-width:981px) and (max-width: 1280px) {
@@ -3140,6 +3186,33 @@ input[type="reset"].small,
     .button.small {
         font-size: 0.8em;
     }
+    .logosmall {
+        max-width: 3em;
+    }
+    .logomedium {
+        max-width: 6em;
+    }
+    .logolarge {
+        max-width: 10em;
+    }
+    h1 {
+        font-size: 1.8em;
+        text-align: center;
+        padding-top: 0px;
+    }
+    p {
+        font-size: 1.1em;
+    }
+    .logos img:not(:first-child) {
+        margin-left: 1em;
+    }
+    .align-center {
+        text-align: center;
+        width: 100%;
+    }
+    .hide360px {
+        padding-top: 2em;
+    }
 }
 
 @media screen and (min-width: 1281px) {
@@ -3153,6 +3226,33 @@ input[type="reset"].small,
     input[type="button"].small,
     .button.small {
         font-size: 0.8em;
+    }
+    .logosmall {
+        max-width: 3em;
+    }
+    .logomedium {
+        max-width: 6em;
+    }
+    .logolarge {
+        max-width: 10em;
+    }
+    h1 {
+        font-size: 1.8em;
+        text-align: center;
+        padding-top: 0px;
+    }
+    p {
+        font-size: 1.1em;
+    }
+    .logos img:not(:first-child) {
+        margin-left: 1em;
+    }
+    .align-center {
+        text-align: center;
+        width: 100%;
+    }
+    .hide360px {
+        padding-top: 2em;
     }
 }
 
@@ -3196,10 +3296,28 @@ input[type="reset"].small,
 }
 
 @media screen and (min-height: 800px) {
-    .margintext {
+    /* .margintext {
         padding-top: 2.2em;
-    }
+    } */
     .marginwhenisbig {
         padding-bottom: 3.2em;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .showMobile {
+        display: none !important;
+    }
+    .showDesktop {
+        display: block !important;
+    }
+    footer p {
+        text-align: center !important;
+    }
+    h3 {
+        text-align: center !important;
+    }
+    .removeTopMarginDesk {
+        padding-top: 0px !important;
     }
 }

@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Directive by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 
 <head>
@@ -13,34 +8,49 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/myIcons/styles.css" />
 
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WD4JMJL');
+    </script>
+    <!-- End Google Tag Manager -->
+
 </head>
 
 <body class="is-preload">
 
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WD4JMJL"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <div class="navbar" style="z-index: 9999;">
-        <img id="logo" src="images/logo Branco.png">
+        <img id="logo" src="images/logo-branco.png">
         <div id="btnShopNow" style="float: right;">
-            <button class="button small">Acessar Loja &nbsp;<i class="fa fa-shopping-cart"></i> </button>
+            <button onclick="window.location = 'http:/\/loja.assistecpoa.com'" class="button small">Acessar Loja &nbsp;<i class="fa fa-shopping-cart"></i> </button>
         </div>
     </div>
     <!-- Header -->
     <div id="header">
         <span class="logo icon">
-			<img src="images/Logo Redondo.png" style="max-width:-webkit-fill-available;"/>
+			<img src="images/Logo-Redondo.png" style="max-width:-webkit-fill-available;"/>
 		</span>
-        <h3 class="hide360px">&nbsp;</h3>
-        <!-- <h3>Que tal dar aquele sossego pra morena?</h3> -->
-        <p style="font-style: italic;" class="marginwhenisbig">"Que tal dar aquele sossego pra morena?"</p>
-        <!-- <p style="font-style: italic;font-weight:600; background-color: rgb(3,56,117,0.1);">"Que tal dar aquele sossego pra morena?"</p> -->
-        <!-- <p style="font-style: italic; background-color: rgb(3,56,117,0.1);">"Saiba como"</p> -->
-        <!-- <p><img style="max-width: 18px;" src="assets/css/images/swipe.png" /></p> -->
-
-        <!--TODO: Mover essa parte para seção de baixo -->
-        <!-- TODO: Duas seções ficaram visídeis no mobile -->
-        <!-- <p>Atendimento online? Consulta presencial? Ou compra Online? <a href="http://html5up.net/license">Tudo Aqui!</a></p> -->
-
-        <!-- <p>A responsive HTML5 + CSS3 site template designed by <a href="http://html5up.net">HTML5 UP</a>
-            <br /> and released for free under the <a href="http://html5up.net/license">Creative Commons license</a>.</p> -->
+        <h3 style="margin:0px;" class="hide360px">&nbsp;</h3>
+        <p style="font-style: italic;" class="marginwhenisbig fontsize">"Que tal dar aquele sossego pra morena?"</p>
     </div>
 
     <!-- Main -->
@@ -48,255 +58,85 @@
 
         <header class="major container medium">
             <div class="row">
-                <div class="col-4">
+                <div class="col-4-mobile col-12 logos">
                     <!-- LOGOS -->
                     <img src="images/brastemp.png" class="logomedium" />
                     <img src="images/consul.png" class="logolarge" />
                     <img src="images/electrolux.png" class="logosmall" />
-                    <!-- <img src="images/elec2.png" style="max-width: 5em;" /> -->
-                    <img src="images/elgin.png" class="logomedium" />
+                    <img src="images/elgin.png" class="logolarge" />
                     <img src="images/fischer-logo.png" class="logolarge" />
                     <img src="images/gelopar.png" class="logolarge" />
 
                 </div>
-                <div class="col-8" style="text-align: left;">
-                    <!-- <p style="font-style: italic; text-align: left; font-weight: 600;">"Uma solução completa para Eletrodomésticos"</p> -->
-                    <!-- <h2 style="text-align:left;padding-top: 1em;"><a href="#section2" style="font-style: italic;">Uma solução completa para Eletrodomésticos e Refrigeração</a></h2> -->
-                    <h1 style="text-align:left;padding-top: 1em;" class="margintext"><a href="#section2" style="font-style: italic; text-transform: none !important;">Uma solução completa para Eletrodomésticos e Refrigeração!</a></h1>
-                    <p style="font-style: italic; padding-left: 0; font-weight: 600;">"Confere Ai" &nbsp; <img style="max-width: 18px;" src="assets/css/images/swipe.png" /></p>
-                    <!-- <h2 style="text-align:right;padding-top: 1em;"><a href="#section1">E um pouco mais!</a></h2> -->
+                <div class="col-8-mobile col-12" style="text-align: left;">
+                    <h1 class="margintext"><a href="#section2" style="font-style: italic; text-transform: none !important;">Uma solução completa para Eletrodomésticos e Refrigeração!</a></h1>
+                    <p class="align-center" style="font-style: italic; font-weight: 600;">"Confere Ai" &nbsp; <img style="max-width: 18px;" src="assets/css/images/swipe.png" /></p>
                 </div>
             </div>
-            <!-- ícone whatsapp -->
-
-            <!-- <h2 style="text-align:right"><a href="#section1">E um pouco mais!</a></h2> LUGAR ANTIGO -->
-            <!--
-					<p>Tellus erat mauris ipsum fermentum<br />
-					etiam vivamus nunc nibh morbi.</p>
-					-->
         </header>
 
         <div class="box alt container">
             <section class="feature left">
-                <a href="#" class="image icon solid icon-tools-1"><img src="images/background-one.png" alt="" style="width: 100%;" /></a>
-                <div class="content">
+                <a href="#" class="image icon solid icon-tools-1"><img src="images/background-one.jpg" alt="" style="width: 100%;" /></a>
+                <div class="content removeTopMarginDesk">
                     <h3>Loja de Peças</h3>
                     <p style="text-align: left;">Trabalhamos com peças de toda a linha Branca das mais variadas marcas a mais de <b>20 anos</b>. Possuindo em estoque uma variedade com mais de <b>10.000</b> itens. </p>
-                    <button class="button alt" style="color: #356091;">Ligar (51) 30263512</button>
-                    <button onclick="window.location.href='https:/wa.me/5551997000741'" class="button alt" style="color: #356091;"> Abrir Whats <img src="images/whatsapp.png" style="max-width: 1.5em;"></button>
-                    </p>
-                    <!-- <p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p> -->
+                    <div class="showMobile">
+                        <a href="tel:05130263512" class="button alt" style="color: #356091; font-size: 1em;">Ligar (51) 30263512</a>
+                        <button onclick="window.location.href='https:/\/wa.me/5551997000741'" class="button alt" style="color: #356091; margin-top: 0.2em;"> Abrir Whats <img src="images/whatsapp.png" style="max-width: 1.5em;"></button>
+                    </div>
+                    <div class="showDesktop">
+                        <a href="tel:05130263512" class="button fit alt" style="color: #356091; font-size: 0.8em;">Ligar (51) 30263512</a>
+                        <button onclick="window.location.href='https:/\/wa.me/5551997000741'" class="button fit alt" style="color: #356091; margin-top: 0.2em;"> Abrir Whats <img src="images/whatsapp.png" style="max-width: 1.5em;"></button>
+                    </div>
                 </div>
             </section>
             <section class="feature right">
-                <a href="#" class="image icon solid icon-ecommerce"><img src="images/background-three.png" style="width: 100%;" alt="" /></a>
+                <a href="#" class="image icon solid icon-ecommerce"><img src="images/background-three.jpg" style="width: 100%;" alt="" /></a>
                 <div class="content">
                     <h3>Loja Virtual</h3>
-                    <p style="text-align: left;">Uma plataforma completa para você encontrar tudo que está procurando, com<b> Frete para todo o Brasil </b>. Está com dúvidas? Chama no Whats Atendimento das 8:00 as 18:00. </p>
-                    <button class="button">Acessar Loja</button>
-                    <!-- <p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p> -->
+                    <p style="text-align: left;">Uma plataforma completa para você encontrar tudo que está procurando, com<b> entrega para todo o Brasil </b>. Está com dúvidas? Chama no Whats Atendimento das 8:00 as 18:00. </p>
+
+                    <div class="showMobile">
+                        <a href="http:/\/loja.assistecpoa.com" style="font-size: 1em;" class="button">Acessar Loja</a>
+                    </div>
+                    <div class="showDesktop">
+                        <a href="http:/\/loja.assistecpoa.com" class="button fit">Acessar Loja</a>
+                    </div>
                 </div>
             </section>
             <section class="feature left">
-                <!-- <a href="#" rel="icon" class="image icon solid" type="image/png" href="images/tecnico.png"> -->
-                <a href="//api.whatsapp.com/send?phone=51997000741&text=WHATEVER_LINK_OR_TEXT_YOU_WANT_TO_SEND" class="image icon solid icon-mechanic-1"><img src="images/background-two.png" style="width: 100%;" alt="" /></a>
+                <a href="//api.whatsapp.com/send?phone=51997000741&text=WHATEVER_LINK_OR_TEXT_YOU_WANT_TO_SEND" class="image icon solid icon-mechanic-1"><img src="images/background-two.jpg" style="width: 100%;" alt="" /></a>
                 <div class="content">
                     <h3>Assistência Técnica</h3>
                     <p style="text-align: left;">Somos representates de diversas marcas, com serviços autorizados e especializados de ar-condicionado e Eletrodomésticos. Possuindo uma equipe qualificada e atualizada sobre as novas tecnologias do ramo.</p>
-                    <button class="button alt" style="color: #356091;">Ligar (51) 30263512</button>
-                    <button class="button alt" onclick="window.location.href='https:/wa.me/5551999254256'" style="color: #356091;"> Abrir Whats <img src="images/whatsapp.png" style="max-width: 1.5em;"></button>
+                    <div class="showMobile">
+                        <a href="tel:05133365379" class="button alt" style="color: #356091; font-size: 1em;">Ligar (51) 33365379</a>
+                        <button class="button alt" onclick="window.location.href='https:/\/wa.me/5551999254256'" style="color: #356091; margin-top: 0.2em;"> Abrir Whats <img src="images/whatsapp.png" style="max-width: 1.5em;"></button>
+                    </div>
+                    <div class="showDesktop">
+                        <a href="tel:05133365379" class="button alt fit" style="color: #356091;">Ligar (51) 33365379</a>
+                        <button class="button alt fit" onclick="window.location.href='https:/\/wa.me/5551999254256'" style="color: #356091; margin-top: 0.2em;"> Abrir Whats <img src="images/whatsapp.png" style="max-width: 1.5em;"></button>
+                    </div>
                 </div>
             </section>
         </div>
-
-        <!--
-				<div class="box container">
-					<header>
-						<h2>A lot of generic stuff</h2>
-					</header>
-					<section>
-						<header>
-							<h3>Paragraph</h3>
-							<p>This is the subtitle for this particular heading</p>
-						</header>
-						<p>Phasellus nisl nisl, varius id <sup>porttitor sed pellentesque</sup> ac orci. Pellentesque
-						habitant <strong>strong</strong> tristique <b>bold</b> et netus <i>italic</i> malesuada <em>emphasized</em> ac turpis egestas. Morbi
-						leo suscipit ut. Praesent <sub>id turpis vitae</sub> turpis pretium ultricies. Vestibulum sit
-						amet risus elit.</p>
-					</section>
-					<section>
-						<header>
-							<h3>Blockquote</h3>
-						</header>
-						<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget.
-						tempus euismod. Vestibulum ante ipsum primis in faucibus.</blockquote>
-					</section>
-					<section>
-						<header>
-							<h3>Divider</h3>
-						</header>
-						<p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra
-						ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
-						facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-						tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-						posuere cubilia.</p>
-						<hr />
-						<p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra
-						ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
-						facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-						tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-						posuere cubilia.</p>
-					</section>
-					<section>
-						<header>
-							<h3>Unordered List</h3>
-						</header>
-						<ul class="default">
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-						</ul>
-					</section>
-					<section>
-						<header>
-							<h3>Ordered List</h3>
-						</header>
-						<ol class="default">
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-						</ol>
-					</section>
-					<section>
-						<header>
-							<h3>Table</h3>
-						</header>
-						<div class="table-wrapper">
-							<table class="default">
-								<thead>
-									<tr>
-										<th>ID</th>
-										<th>Name</th>
-										<th>Description</th>
-										<th>Price</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>45815</td>
-										<td>Something</td>
-										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
-										<td>29.99</td>
-									</tr>
-									<tr>
-										<td>24524</td>
-										<td>Nothing</td>
-										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
-										<td>19.99</td>
-									</tr>
-									<tr>
-										<td>45815</td>
-										<td>Something</td>
-										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
-										<td>29.99</td>
-									</tr>
-									<tr>
-										<td>24524</td>
-										<td>Nothing</td>
-										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
-										<td>19.99</td>
-									</tr>
-								</tbody>
-								<tfoot>
-									<tr>
-										<td colspan="3"></td>
-										<td>100.00</td>
-									</tr>
-								</tfoot>
-							</table>
-						</div>
-					</section>
-					<section>
-						<header>
-							<h3>Form</h3>
-						</header>
-						<form method="post" action="#">
-							<div class="row">
-								<div class="col-6 col-12-mobilep">
-									<label for="name">Name</label>
-									<input class="text" type="text" name="name" id="name" value="" placeholder="John Doe" />
-								</div>
-								<div class="col-6 col-12-mobilep">
-									<label for="email">Email</label>
-									<input class="text" type="text" name="email" id="email" value="" placeholder="johndoe@domain.tld" />
-								</div>
-								<div class="col-12">
-									<label for="subject">Subject</label>
-									<input class="text" type="text" name="subject" id="subject" value="" placeholder="Enter your subject" />
-								</div>
-								<div class="col-12">
-									<label for="subject">Message</label>
-									<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
-								</div>
-								<div class="col-12">
-									<ul class="actions special">
-										<li><input type="submit" value="Send" /></li>
-										<li><input type="reset" value="Reset" class="alt" /></li>
-									</ul>
-								</div>
-							</div>
-						</form>
-					</section>
-				</div>
-				-->
-
         <footer class="major container medium">
             <h3>Localização</h3>
             <p style="text-align: left;font-size: 1.3em;">Avenida Bento Gonçalves Nº 3155, Partenon POA - RS</p>
-            <!-- <h3 style="text-align: left;">Contato</h3>
-            <p style="text-align: left;">Assistência Técnica</p>
-            <p style="text-align: left;">(51) 3384-3712</p>
-            <p style="text-align: left;">(51) 99925-4256</p>
-            <p style="text-align: left;">Venda De Peças</p>
-            <p style="text-align: left;">(51) 3085-2476 | (51) 99700-0741</p> -->
-            <!-- <p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.</p> -->
             <ul class="actions special">
-                <!-- <li><a href="#" class="button" style="background-color: rgb(3,56,117,0.8);color: white;">Como Chegar</a></li> -->
-                <li><a href="#" class="button alt" style="color:#356091 ">Como Chegar</a></li>
+                <li><button class="button alt" onclick="jQuery.returnMapUrl()" style="color:#356091 ">Como Chegar</button></li>
             </ul>
         </footer>
-
     </div>
 
     <!-- Footer -->
     <div id="footer">
         <div class="container medium">
-
             <header class="major last">
                 <h2>"Quem tem internet faz tudo!"</h2>
             </header>
             <p>Uma plataforma educacional, disponivel no Youtube e em Blog para saciar suas dúvidas técnicas.</p>
-
-            <!-- <form method="post" action="#">
-                <div class="row">
-                    <div class="col-6 col-12-mobilep">
-                        <input type="text" name="name" placeholder="Name" />
-                    </div>
-                    <div class="col-6 col-12-mobilep">
-                        <input type="email" name="email" placeholder="Email" />
-                    </div>
-                    <div class="col-12">
-                        <textarea name="message" placeholder="Message" rows="6"></textarea>
-                    </div>
-                    <div class="col-12">
-                        <ul class="actions special">
-                            <li><input type="submit" value="Send Message" /></li>
-                        </ul>
-                    </div>
-                </div>
-            </form> -->
 
             <ul class="icons">
                 <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
@@ -316,8 +156,8 @@
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/browser.min.js"></script>
     <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/util.min.js"></script>
+    <script src="assets/js/main.min.js"></script>
 
 </body>
 
